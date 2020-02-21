@@ -7,17 +7,25 @@
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
   </head>
   <body>
-    <a-scene background="color: #FAFAFA">
-      <! Originale
+     <!-- Codice Originale
+      <a-scene background="color: #FAFAFA">
       <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" shadow></a-sphere>
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D" shadow></a-cylinder>
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
-      >
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" shadow></a-sphere>
+      -->
+      <a-scene background="color: #FAFAFA">
+      <!-- Rotazione cubo 60°-->
+      <a-box position="-4 0.5 -3" rotation="0 60 0" color="#4CC3D9" shadow></a-box>
+        
+      <!-- Raggio sfera ridotto a 1-->
+      <a-sphere position="0 1.25 -5" radius="1.00" color="#EF2D5E" shadow></a-sphere>
+      
+      <!-- Altezza cilindro a 2.5 -->
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D" shadow></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
+      
+      <!--Colore verde scuro-->
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#666633" shadow></a-plane>
     </a-scene>
   </body>
 </html> 

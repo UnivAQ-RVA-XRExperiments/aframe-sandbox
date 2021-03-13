@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Ambiente prova </title>
+  <meta name="description"> # content="La Sfinge in VR • A-Frame"
+  <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+   <a-scene background="color: #FFFFE0">
+   <a-assets>
+    <!--
+      Model source: https://sketchfab.com/3d-models/sphinx-of-hatshepsut-bf46a8a24521494ea6dadb9b91d10cf3
+      Model authors: https://sketchfab.com/danderson4       Granite Statue of Horus
+                     https://sketchfab.com/Sebastien_Rioux  Human skull - volcanic rocks
+                     https://sketchfab.com/JayDeffault      Free texture road tile
+      Model license: Sketcfab CC Attribution-NonCommercial
+    -->
+   <a-asset-item id="Horus" src="assets1/scene1.gltf"></a-asset-item>
+   </a-assets>
+   <a-entity gltf-model="#Horus"></a-entity>
+   <a-entity position="0 -2 -1" scale="0.1 0.1 0.1" gltf-model="#sfinge" src="assets1/textures1/Modelout_baseColor.jpeg" ></a-entity>
+   <a-plane position="0 0 0" rotation="-90 0 0" width="4" height="4" color="#ffccff" shadow></a-plane>
+  </a-scene>
+</body>
+</html>

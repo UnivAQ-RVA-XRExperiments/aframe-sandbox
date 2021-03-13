@@ -3,25 +3,21 @@
   <meta charset="utf-8">
   <title>La Sfinge</title>
   <meta name="description" content="La Sfinge in VR• A-Frame">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
 </head>
 <body>
 
-<a-scene
-  renderer="colorManagement: true;"
-  info-message="htmlSrc: #messageText"
-  model-viewer="gltfModel: #sfinge; title: La Sfinge">
+<a-scene background="color: #ECECEC">
   <a-assets>
     <!--
-      Model source: https://sketchfab.com/3d-models/triceratops-d16aabe33dc24f8ab37e3df50c068265
-      Model author: https://sketchfab.com/VapTor
-      Model license: Sketcfab Standard
+      Model source: https://sketchfab.com/3d-models/sphinx-of-hatshepsut-bf46a8a24521494ea6dadb9b91d10cf3
+      Model author: https://sketchfab.com/danderson4 
+      Model license: Sketcfab CC Attribution-NonCommercial
     -->
-    <a-asset-item id="sfinge"
-      src="assets/Ramesses/scene.gltf"
-      response-type="arraybuffer"></a-asset-item>
+    <a-asset-item id="sfinge" src="assets/Ramesses/scene.gltf"></a-asset-item>
  </a-assets>
+  <a-entity gltf-model="#sfinge"></a-entity>
+  <a-plane position="0 0 -4" rotation"-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
 </a-scene>
 </body>
 </html>

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
   <title>La Sfinge in VR</title>
@@ -7,7 +8,8 @@
 </head>
 <body>
 
-<a-scene background="color: #ECECEC">
+<a-scene>
+  <a-scene background="color: #ECECEC">
   <a-assets>
     <!--
       Model source: https://sketchfab.com/3d-models/sphinx-of-hatshepsut-bf46a8a24521494ea6dadb9b91d10cf3
@@ -16,8 +18,9 @@
     -->
     <a-asset-item id="sfinge" src="assets/scene.gltf"></a-asset-item>
   </a-assets>
-  <a-entity position="0 -2 -1" scale="0.1 0.1 0.1" gltf-model="#sfinge"></a-entity>
-  <a-plane position="0 0 0" rotation="-90 0 0" width="25" height="25" color="#7BC8A4" shadow></a-plane>
+  <a-entity gltf-model="#sfinge"></a-entity>
+  <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
 </a-scene>
 </body>
 </html>
+© 2021 GitHub, Inc.

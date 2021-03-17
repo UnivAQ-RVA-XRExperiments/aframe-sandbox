@@ -9,6 +9,8 @@
 <body>
 
 <a-scene background="color: #ECECEC">
+  <a-sky src="img/egitto.jpg" rotation="0 -130 0"></a-sky>
+  
   <a-assets>
     <!--
       Model source: https://sketchfab.com/3d-models/nefertitis-bust-like-in-the-museum-ce5b14926e494558ab584375a8d63ca7
@@ -16,22 +18,21 @@
       Model license: Sketcfab CC Attribution
     -->
     <a-asset-item id="Nefertiti" src="assets1/scene.gltf"></a-asset-item>
- </a-assets>
-   <a-entity position="0 +1 0" scale="10.0 10.0 10.0" gltf-model="#Nefertiti"></a-entity>
-  <a-plane position="0 0 3" rotation="-90 0 0" width="16" height="16" color="#b37700" shadow></a-plane>
-  
-   <a-assets>
-    <!--
+ 
+     <!--
       Model source: https://sketchfab.com/3d-models/egyptian-cat-statue-02b0456362f9442da46d39fb34b3ee5b
       Model author: https://sketchfab.com/Ankledot
       Model license: Sketcfab CC Attribution
     -->
     <a-asset-item id="Gatto" src="assets2/scene.gltf"></a-asset-item>
  </a-assets>
+ 
+  <a-entity position="0 +1 0" scale="10.0 10.0 10.0" gltf-model="#Nefertiti"></a-entity>
+  <a-plane position="0 0 3" rotation="-90 0 0" width="16" height="16" color="#b37700" shadow></a-plane>
    <a-entity position="0 +1 0" scale="1 1 1" gltf-model="#Gatto"></a-entity>
   
   
-       <a-sky src="img/egitto.jpg" rotation="0 -130 0"></a-sky>
+       
   
 </a-scene>
 </body>8

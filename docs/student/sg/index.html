@@ -14,27 +14,23 @@
 	<body>
 		
 	<a-scene background="color: #ECECEC">
+		
+		
+          <a-sky src="img/Texture_0_baseColor.jpeg"> </a-sky>
+		
 	  <a-assets>
 	   
 	    <a-asset-item id="koala" src="assets1/scene.gltf"></a-asset-item>
-	 </a-assets>
-	   <a-entity position="-15 +15 +15" scale="10.0 10.0 10.0" rotation= "0 180 0" gltf-model="#koala">  </a-entity>
-	
-	   <a-assets>
-	  
+	 
 	    <a-asset-item id="leone"  src="assets3/scene.gltf"> </a-asset-item>
-	 </a-assets>
-	   <a-entity position="+10 +5 +5" scale="10.0 10.0 10.0" rotation="0 180 0" gltf-model="#leone"> </a-entity>
-
-		
-          <a-assets>
-	   
+		  
 	    <a-asset-item id="cane" esrc="assets4/scene.gltf"></a-asset-item>
+		  
 	 </a-assets>
-	   <a-entity position="-15 +15 +15" scale="10.0 10.0 10.0" rotation= "0 180 0" gltf-model="#cane">  </a-entity>
-	
-	
-          <a-sky src="img/Texture_0_baseColor.jpeg"> </a-sky>
+		
+	<a-entity position="-15 +15 +15" scale="10.0 10.0 10.0" rotation= "0 180 0" gltf-model="#koala">  </a-entity>
+	<a-entity position="+10 +5 +5" scale="10.0 10.0 10.0" rotation="0 180 0" gltf-model="#leone"> </a-entity>
+	<a-entity position="-15 +15 +15" scale="10.0 10.0 10.0" rotation= "0 180 0" gltf-model="#cane">  </a-entity>
 		
 	<a-plane position="0 0 0" rotation="-90 0 0" width="30" height="30" color="#7BC8A4"shadow> </a-plane>
 	  

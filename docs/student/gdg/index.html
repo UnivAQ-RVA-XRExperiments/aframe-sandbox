@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Test didascalia vocale</title>
+  <meta name="description" content="Test didascalia vocale • A-Frame">
+  <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+</head>
+<body>
+
+<a-scene background="color: #ECECEC">
+
+  <a-entity cursor position="0 0 -5"></a-entity>
+
+  <a-entity id="box" geometry="primitive: box" 
+          sound="src: url(assets/sounds/ara_pacis.mp3); on: click"></a-entity>
+  
+  <a-plane position="0 0 0" rotation="-90 0 0" width="16" height="16" color="#7BC8A4" shadow></a-plane>
+</a-scene>
+</body>
+</html>

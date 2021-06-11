@@ -1,3 +1,3 @@
 # Area di test per il mio esame in VR
 
-Link per il museo: https://univaq-rva-xrexperiments.github.io/aframe-sandbox/student/RF/esame/index.html
+Link Roio a 360°: https://univaq-rva-xrexperiments.github.io/aframe-sandbox/student/RF/esame/index.html

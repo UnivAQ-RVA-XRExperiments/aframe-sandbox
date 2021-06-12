@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Fontana delle Api </title>
+  <meta name="description" content="Modelout_baseColor in VR • A-Frame">
+  <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+</head>
+
+<body>
+   <a-scene background="color: #FFFFE0">
+   <a-assets>
+    <!--
+      Model source: https://sketchfab.com/3d-models/fontana-delle-api-roma-52da46e832e84127bdeae5219d946736
+      Model authors: https://sketchfab.com/donatomele86      Fontana delle Api Roma
+      Model license: Sketcfab CC Attribution-NonCommercial
+    -->
+   <a-asset-item id="fontana" src="assets4/statua1.glb"></a-asset-item>
+   
+   </a-assets>
+   
+   <a-entity position="0 +1 0" scale="1.0 1.0 1.0" gltf-model="#fontana"></a-entity>
+    
+   <a-plane position="0 0 0" rotation="0 0 0" 
+            <!-- 
+               width="+4" height="+4" 
+              -->
+     color="#ffccff" shadow></a-plane>
+  
+  </a-scene>
+</body>
+</html>

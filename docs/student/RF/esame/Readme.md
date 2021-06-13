@@ -6,4 +6,4 @@ Fontana delle Api: https://univaq-rva-xrexperiments.github.io/aframe-sandbox/stu
 
 David: https://univaq-rva-xrexperiments.github.io/aframe-sandbox/student/RF/esame/index2.html
 
-Link Museo: https://hubs.mozilla.com/U65rXC7/necessary-elastic-convention
+Link Museo: https://hubs.mozilla.com/yEEtwBQ/far-known-rendezvous/

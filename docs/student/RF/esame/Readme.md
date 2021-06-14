@@ -6,4 +6,4 @@ Fontana delle Api: https://univaq-rva-xrexperiments.github.io/aframe-sandbox/stu
 
 David: https://univaq-rva-xrexperiments.github.io/aframe-sandbox/student/RF/esame/index2.html
 
-Link Museo: https://hubs.mozilla.com/GkzgU8Y/honest-fond-gala
+Link Museo: https://hubs.mozilla.com/Gbr5zCv/roasted-roasted-domain

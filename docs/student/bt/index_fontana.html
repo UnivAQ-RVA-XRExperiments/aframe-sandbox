@@ -5,7 +5,12 @@
   </head>
   <body>
     <a-scene>
-      <a-plane position="0 0 0" rotation="0 0 0" width="300" height="300" color="#7BC8A4"></a-plane>
+      <a-assets>
+        <a-asset-item id="fontecchio" src="asset/fontanafontecchio.gltf" position="0 0 0" scale="1 1 1"></a-asset-item>
+      </a-assets>
+
+      <a-entity gltf-model="#fontecchio"></a-entity>
+      <a-plane position="0 0 0" rotation="-90 0 0" width="300" height="300" color="#F89CFF"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
     </a-scene>
   </body>
